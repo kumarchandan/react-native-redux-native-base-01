@@ -17,12 +17,12 @@ export default class Profile extends Component {
                     <Card>
                         <CardItem>
                             <Body>
-                                <Text>This is Profile page, click here to go back to Home Page</Text>
+                                <Text>This is Profile Screen</Text>
                             </Body>
                         </CardItem>
                     </Card>
                     <Button onPress={() => { Actions.pop() }}>
-                        <Text>Goto Back to Home</Text>
+                        <Text>Go Back to Home Screen</Text>
                     </Button>
                 </Content>
             </Container>

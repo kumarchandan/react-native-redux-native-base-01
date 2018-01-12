@@ -5,7 +5,7 @@ let intialState = {
     loading: true
 }
 
-export const moviesReducer = (state = intialState, action) => {
+export default function moviesReducer (state = intialState, action) {
     //
     switch (action.type) {
         case MOVIES_AVAILABLE:

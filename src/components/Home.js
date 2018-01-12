@@ -62,7 +62,7 @@ class Home extends Component {
                                         }
                                     />
                                     <Button onPress={() => { Actions.profilePageKey() }}>
-                                        <Text>Click to Profile</Text>
+                                        <Text>Goto Profile Screen</Text>
                                     </Button>
                                 </Body>
                             </CardItem>
