@@ -1,9 +1,9 @@
 react-native-expo boilerplate
 
-Using following libraries:
-react-native-router-flux    [navigation]
-redux                       [Apps state mgmt]
-native-base                 [UI components]
+Using following libraries for key functionalities:  
+react-native-router-flux &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [navigation]  
+redux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Apps state mgmt]  
+native-base &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [UI components]
 
 In this boilerplate,  
 There are two UI screens:  
