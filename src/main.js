@@ -1,6 +1,5 @@
 import * as Expo from 'expo'
 import React from 'react'
-import { AsyncStorage } from "react-native"
 import { Router, Scene, Reducer } from "react-native-router-flux"
 import { connect } from "react-redux"
 import { getMovies } from "./actions/index"
@@ -54,8 +53,8 @@ class Main extends React.Component {
         return (
             <Router hideNavBar="false" createReducer={reducerCreate}>
                 <Scene key="root">
-                    <Scene key="homePageKey" component={Home} title="Home title" initial={true} />
-                    <Scene key="profilePageKey" component={Profile} title="Profile title" />
+                    <Scene key="homePageKey" component={Home} initial={true} />
+                    <Scene key="profilePageKey" component={Profile} />
                 </Scene>
             </Router>
         )
